@@ -1,0 +1,21 @@
+log_results: False
+print_freq: 100
+save_checkpoint: False
+batch_size: 32
+num_workers: 4
+epochs: 15
+
+model:
+  pretrain: False
+  model_name: resnet
+  num_classes: 3
+  max_size: 224
+
+optimizer:
+  optimizer_name: Adam
+  learning_rate: 0.001
+  weight_decay: 0.0006
+  step_size: 3
+  gamma: 0.1
+
+
